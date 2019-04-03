@@ -1,0 +1,50 @@
+{
+  "name": "reactive-extensions",
+  "version": "0.1.0",
+  "description": "Reactive Extensions for JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LXSMNSYC/reactive-extensions.git"
+  },
+  "keywords": [
+    "reactive",
+    "reactivex",
+    "reactive-extensions",
+    "rx",
+    "rxjs"
+  ],
+  "author": "LXSMNSYC (alexis.munsayac@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LXSMNSYC/reactive-extensions/issues"
+  },
+  "homepage": "https://github.com/LXSMNSYC/reactive-extensions#readme",
+  "dependencies": {
+    "abort-controller": "^3.0.0",
+    "rx-completable": "^0.2.1",
+    "rx-scheduler": "^0.1.0",
+    "rx-single": "^0.5.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/register": "^7.4.0",
+    "acorn": "^6.1.1",
+    "esdoc": "^1.1.0",
+    "esdoc-inject-style-plugin": "^1.0.0",
+    "esdoc-integrate-test-plugin": "^1.0.0",
+    "esdoc-standard-plugin": "^1.0.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "mocha": "^6.0.2",
+    "nyc": "^13.3.0",
+    "rollup": "^1.8.0",
+    "terser": "^3.17.0"
+  }
+}

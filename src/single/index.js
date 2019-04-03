@@ -1,7 +1,7 @@
 import Single from 'rx-single';
 
-import delayScheduled from './internal/delayScheduled';
-import delaySubscriptionScheduled from './internal/delaySubscriptionScheduled';
+import delayScheduled from './internal/delay';
+import delaySubscriptionScheduled from './internal/delaySubscription';
 
 
 Single.prototype.delay = function (amount, delayOnError, scheduler) {

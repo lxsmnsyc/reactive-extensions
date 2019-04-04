@@ -8,7 +8,7 @@ import Single from 'rx-single';
 function subscribeActual(observer) {
   const { onSuccess, onError, onSubscribe } = cleanObserver(observer);
 
-  const { amount } = this;
+  const { amount, scheduler } = this;
 
   const controller = new AbortController();
 

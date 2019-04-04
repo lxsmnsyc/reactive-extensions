@@ -1,15 +1,14 @@
 import Single from 'rx-single';
 
-import delayScheduled from './internal/delay';
-import delaySubscriptionScheduled from './internal/delaySubscription';
+import delay from './internal/delay';
+import delaySubscription from './internal/delaySubscription';
 
+export default class SingleEx extends Single {
+  delay(amount, doDelayError, scheduler) {
+    return delay(this, amount, scheduler, doDelayError);
+  }
 
-Single.prototype.delay = function (amount, delayOnError, scheduler) {
-  return delayScheduled(this, amount, scheduler, delayOnError);
-};
-
-Single.prototype.delaySubscription = function (amount, scheduler) {
-  return delaySubscriptionScheduled(this, amount, scheduler);
-};
-
-export default Single;
+  delaySubscription(amount, scheduler) {
+    return delaySubscription(this, amount, scheduler);
+  }
+}

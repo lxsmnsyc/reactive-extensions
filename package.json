@@ -26,8 +26,9 @@
   "dependencies": {
     "abort-controller": "^3.0.0",
     "rx-completable": "^0.2.1",
-    "rx-scheduler": "^0.1.0",
-    "rx-single": "^0.5.2"
+    "rx-maybe": "^0.1.0",
+    "rx-scheduler": "^0.1.1",
+    "rx-single": "^0.5.3"
   },
   "devDependencies": {
     "@babel/cli": "^7.4.3",

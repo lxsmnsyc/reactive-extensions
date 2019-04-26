@@ -24,11 +24,12 @@
   },
   "homepage": "https://github.com/LXSMNSYC/reactive-extensions#readme",
   "dependencies": {
-    "rx-cancellable": "^0.2.0",
-    "rx-completable": "^0.7.0",
-    "rx-maybe": "^0.3.0",
-    "rx-scheduler": "^0.2.3",
-    "rx-single": "^0.10.2"
+    "is-reactive-streams": "^1.0.0",
+    "rx-cancellable": "^0.3.1",
+    "rx-completable": "^0.8.7",
+    "rx-maybe": "^0.5.2",
+    "rx-scheduler": "^0.2.4",
+    "rx-single": "^0.12.3"
   },
   "devDependencies": {
     "@babel/cli": "^7.4.3",
@@ -42,10 +43,10 @@
     "esdoc-standard-plugin": "^1.0.0",
     "eslint": "^5.16.0",
     "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.16.0",
-    "mocha": "^6.1.3",
-    "nyc": "^13.3.0",
-    "rollup": "^1.10.0",
+    "eslint-plugin-import": "^2.17.2",
+    "mocha": "^6.1.4",
+    "nyc": "^14.0.0",
+    "rollup": "^1.10.1",
     "terser": "^3.17.0"
   }
 }

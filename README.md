@@ -30,6 +30,7 @@ npm i reactive-extensions
   * jsDelivr
   
   ```html
+  <script src="https://cdn.jsdelivr.net/npm/is-reactive-streams/dist/index.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/rx-cancellable/dist/index.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/rx-scheduler/dist/index.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/rx-maybe/dist/index.min.js"></script>
@@ -40,6 +41,7 @@ npm i reactive-extensions
   * unpkg
 
   ```html
+  <script src="https://unpkg.com/is-reactive-streams/dist/index.min.js"></script>
   <script src="https://unpkg.com/rx-cancellable/dist/index.min.js"></script>
   <script src="https://unpkg.com/rx-scheduler/dist/index.min.js"></script>
   <script src="https://unpkg.com/rx-maybe/dist/index.min.js"></script>
